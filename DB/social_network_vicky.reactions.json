@@ -1,0 +1,12 @@
+[{
+  "_id": {
+    "$oid": "670bf91e965a3f4b842902cd"
+  },
+  "type": "like",
+  "userId": "user_id",
+  "postId": "post_id",
+  "commentId": "optional_comment_id",
+  "createdAt": {
+    "$date": "2024-10-13T10:00:00.000Z"
+  }
+}]

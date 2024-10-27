@@ -1,0 +1,54 @@
+﻿<Window x:Class="Social_Network.MainPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:Social_Network"
+        Title="Main Page" 
+        Height="600" Width="800"
+        Background="White"
+        WindowStartupLocation="CenterScreen">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal" Margin="10">
+            <Label Content="Enter Friend's Name:" VerticalAlignment="Center" Margin="0,0,10,0"/>
+            <TextBox Width="200" Margin="0,0,10,0" 
+                     Text="{Binding FriendName, UpdateSourceTrigger=PropertyChanged}"/>
+            <Button Content="Add Friend" Width="100" Margin="0,0,10,0" 
+                    Command="{Binding AddFriendCommand}" 
+                    CommandParameter="{Binding FriendName}"/>
+            <Button Content="Remove Friend" Width="100" 
+                    Command="{Binding RemoveFriendCommand}" 
+                    CommandParameter="{Binding FriendName}"/>
+        </StackPanel>
+
+        <ListBox Grid.Row="1" ItemsSource="{Binding Posts}" Margin="10">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Border Margin="10" Background="LightGray" CornerRadius="5" Padding="10">
+                        <StackPanel>
+                            <TextBlock Text="{Binding AuthorName}" FontWeight="Bold" FontSize="16" />
+                            <TextBlock Text="{Binding Content}" TextWrapping="Wrap"/>
+                            <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
+                                <Button Content="Like" Command="{Binding DataContext.LikeCommand, RelativeSource={RelativeSource AncestorType=ListBox}}" CommandParameter="{Binding}"/>
+
+                                <TextBox Width="200" Margin="5,0,0,0" 
+                                         Text="{Binding DataContext.CommentText, ElementName=MainWindow, UpdateSourceTrigger=PropertyChanged}" 
+                                         KeyDown="CommentTextBox_KeyDown"/>
+                                <TextBlock Text="Enter your comment for the post and press Enter" 
+                                           Foreground="Gray" 
+                                           VerticalAlignment="Center" 
+                                           Margin="5,0,0,0"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </Border>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <TextBlock x:Name="CommentMessage" Margin="10" Foreground="Green" Visibility="Collapsed"/>
+    </Grid>
+</Window>

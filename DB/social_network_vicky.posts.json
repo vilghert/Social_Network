@@ -1,0 +1,17 @@
+[{
+  "_id": {
+    "$oid": "670d132a5c27091cf079e753"
+  },
+  "AuthorId": {
+    "$oid": "670bef74965a3f4b842902bc"
+  },
+  "userId": {
+    "$oid": "670bef74965a3f4b842902bc"
+  },
+  "content": "Seaside",
+  "createdAt": {
+    "$date": "2024-10-14T12:48:42.461Z"
+  },
+  "comments": [],
+  "reactions": []
+}]

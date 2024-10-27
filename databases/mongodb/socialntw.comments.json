@@ -1,0 +1,27 @@
+[{
+  "_id": {
+    "$oid": "670d68fd6c729aeef1b41501"
+  },
+  "postId": "post_id",
+  "userId": "user_id",
+  "commentText": "Comment.",
+  "createdAt": {
+    "$date": "2024-10-13T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67154721e52dd4a2396e6a48"
+  },
+  "postId": {
+    "$oid": "670d68816c729aeef1b41500"
+  },
+  "userId": {
+    "$oid": "67154584e4637847e4afe0fb"
+  },
+  "content": "cool",
+  "createdAt": {
+    "$date": "2024-10-20T18:08:33.402Z"
+  },
+  "reactions": []
+}]

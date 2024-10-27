@@ -1,0 +1,11 @@
+[{
+  "_id": {
+    "$oid": "670bfa4c965a3f4b842902cf"
+  },
+  "postId": "post_id",
+  "userId": "user_id",
+  "commentText": "Comment.",
+  "createdAt": {
+    "$date": "2024-10-13T10:00:00.000Z"
+  }
+}]

@@ -1,0 +1,65 @@
+[{
+  "_id": {
+    "$oid": "670d68816c729aeef1b41500"
+  },
+  "AuthorId": {
+    "$oid": "670bef74965a3f4b842902bc"
+  },
+  "userId": {
+    "$oid": "670bef74965a3f4b842902bc"
+  },
+  "content": "Seaside",
+  "createdAt": {
+    "$date": "2024-10-14T12:48:42.461Z"
+  },
+  "comments": [
+    {
+      "_id": {
+        "$oid": "000000000000000000000000"
+      },
+      "postId": {
+        "$oid": "670d68816c729aeef1b41500"
+      },
+      "userId": {
+        "$oid": "671ea317e65c4ecfd1c64d1f"
+      },
+      "content": null,
+      "createdAt": {
+        "$date": "2024-10-27T20:39:19.363Z"
+      },
+      "reactions": [],
+      "Text": "super"
+    }
+  ],
+  "reactions": [
+    {
+      "_id": {
+        "$oid": "000000000000000000000000"
+      },
+      "userId": {
+        "$oid": "671ea317e65c4ecfd1c64d1f"
+      },
+      "reactionType": "Like",
+      "createdAt": {
+        "$date": "2024-10-27T20:36:52.373Z"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "671bd752980a98b8c4e3e10d"
+  },
+  "AuthorId": {
+    "$oid": "000000000000000000000000"
+  },
+  "userId": {
+    "$oid": "671bd6134534339115917949"
+  },
+  "content": "Cars",
+  "createdAt": {
+    "$date": "2024-10-25T17:37:22.787Z"
+  },
+  "comments": [],
+  "reactions": []
+}]

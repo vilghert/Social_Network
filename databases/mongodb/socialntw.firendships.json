@@ -1,0 +1,9 @@
+[{
+  "_id": {
+    "$oid": "671bcb5c5f4b8462a165a0b9"
+  },
+  "userId1": "ObjectId_1",
+  "userId2": "ObjectId_2",
+  "relationshipType": "FRIEND",
+  "createdAt": "DateTime"
+}]

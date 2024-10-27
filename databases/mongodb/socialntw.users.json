@@ -1,0 +1,129 @@
+[{
+  "_id": {
+    "$oid": "670d0f912e75a6595973f3ed"
+  },
+  "email": "test@gmail.com",
+  "password": "12345",
+  "firstName": "test",
+  "lastName": "test",
+  "interests": [
+    "example interest"
+  ],
+  "friends": [],
+  "followers": [],
+  "subscribers": [],
+  "createdAt": {
+    "$date": "2024-10-14T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670d67c86c729aeef1b414fe"
+  },
+  "email": "email@example.com",
+  "password": "hashed_password",
+  "firstName": "John",
+  "lastName": "Doe",
+  "interests": [
+    "music",
+    "sports"
+  ],
+  "createdAt": {
+    "$date": "2024-09-23T10:00:00.000Z"
+  },
+  "followers": [],
+  "friends": [],
+  "subscribers": []
+},
+{
+  "_id": {
+    "$oid": "67154584e4637847e4afe0fb"
+  },
+  "email": "vicky@gmail.com",
+  "password": "12345",
+  "firstName": "vicky",
+  "lastName": "ros",
+  "interests": [
+    "example interest"
+  ],
+  "friends": [],
+  "followers": [],
+  "subscribers": [],
+  "createdAt": {
+    "$date": "2024-10-20T18:01:40.660Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "671bd6134534339115917949"
+  },
+  "email": "michael@gmail.com",
+  "password": "1234554",
+  "firstName": "Michael",
+  "lastName": "Lose",
+  "interests": [
+    "sea",
+    " skiing"
+  ],
+  "friends": [],
+  "followers": [],
+  "subscribers": [],
+  "createdAt": {
+    "$date": "2024-10-25T17:32:03.334Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "671bd6a0980a98b8c4e3e10b"
+  },
+  "email": "henry@gmail.com",
+  "password": "123321",
+  "firstName": "Henry",
+  "lastName": "Flower",
+  "interests": [
+    "cars",
+    " photo"
+  ],
+  "friends": [],
+  "followers": [],
+  "subscribers": [],
+  "createdAt": {
+    "$date": "2024-10-25T17:34:24.505Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "671ea317e65c4ecfd1c64d1f"
+  },
+  "email": "ian@gmail.com",
+  "password": "1234",
+  "firstName": "ian",
+  "lastName": "somerholder",
+  "interests": [
+    "movie"
+  ],
+  "friends": [],
+  "followers": [],
+  "subscribers": [],
+  "createdAt": {
+    "$date": "2024-10-27T20:31:19.576Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "671ea347e65c4ecfd1c64d21"
+  },
+  "email": "paul@gmail.com",
+  "password": "1234",
+  "firstName": "paul",
+  "lastName": "westley",
+  "interests": [
+    "car"
+  ],
+  "friends": [],
+  "followers": [],
+  "subscribers": [],
+  "createdAt": {
+    "$date": "2024-10-27T20:32:07.815Z"
+  }
+}]

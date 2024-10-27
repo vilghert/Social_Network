@@ -1,0 +1,30 @@
+[{
+  "_id": {
+    "$oid": "671bd6e1980a98b8c4e3e10c"
+  },
+  "UserId1": {
+    "$oid": "671bd6134534339115917949"
+  },
+  "UserId2": {
+    "$oid": "671bd6a0980a98b8c4e3e10b"
+  },
+  "RelationshipType": "FRIEND",
+  "CreatedAt": {
+    "$date": "2024-10-25T17:35:29.640Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "671ea387e65c4ecfd1c64d22"
+  },
+  "UserId1": {
+    "$oid": "671ea317e65c4ecfd1c64d1f"
+  },
+  "UserId2": {
+    "$oid": "671ea347e65c4ecfd1c64d21"
+  },
+  "RelationshipType": "FRIEND",
+  "CreatedAt": {
+    "$date": "2024-10-27T20:33:11.658Z"
+  }
+}]
